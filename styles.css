@@ -15,12 +15,14 @@ header {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-size: 2.5rem;
 }
 nav {
     margin: 0 auto;
-    font-size: 2.5rem;
     background-color: #001845;
-    width: fit-content;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
     position: sticky;
     z-index: 1000;
     top: 0;
@@ -35,6 +37,9 @@ a {
     text-decoration: none;
     color: inherit;
     margin: 0 1rem;
+}
+section {
+    scroll-margin-top: 30px;
 }
 .container {
     background-color: #023e7d;
