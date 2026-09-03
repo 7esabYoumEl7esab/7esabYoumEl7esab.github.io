@@ -1,0 +1,74 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #0466c8;
+    color: #caf0f8;
+    font-family: 'Bricolage Grotesque', Geneva, Verdana, sans-serif;
+}
+.love {
+    color: #ee9dc0;
+    font-family: 'Edu NSW ACT Cursive', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #001845;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    background-color: #001845;
+    width: fit-content;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+.title {
+    font-family: 'bitcount grid double', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0.5rem;
+    word-break: break-all;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 1rem;
+}
+.container {
+    background-color: #023e7d;
+    padding: 10px;
+    margin: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    animation: slideIn 1s ease-out forwards;
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.text {
+    width: 80%;
+    padding: 10px;
+}
+.image {
+    width: 20%;
+}
+.image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+#memories h2, #memories p, #future h2 {
+    margin: 0 20px;
+
+}
