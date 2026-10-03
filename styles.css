@@ -69,6 +69,7 @@ section {
 }
 .image {
     width: 20%;
+    align-self: center;
 }
 .image img {
     width: 100%;
